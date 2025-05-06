@@ -1,4 +1,3 @@
-package ru.netology
 
 import kotlin.math.max
 
@@ -6,7 +5,7 @@ const val ERROR_TYPE = -1
 const val ERROR_LIMIT = -2
 
 fun main() {
-    println(calcComission("Mastercard", 70000, 10000))
+    println(calcComission("Mastercard", 10000, 75000))
 }
 
 fun calcComission(typeCard: String = "Мир", transfer: Int, mounthlyTransfer: Int = 0 ): Any {
