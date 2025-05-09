@@ -7,7 +7,7 @@ class MainKtTest {
 @Test
  fun calcComissionMastercard() {
   val card = "Mastercard"
-  val transfer = 60_000
+  val transfer = 70_000
   val mounthlyTransfer = 10_000
 
   val result = calcComission(card, transfer, mounthlyTransfer)
